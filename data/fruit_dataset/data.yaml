@@ -1,0 +1,14 @@
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+
+names:
+  0: Apple
+  1: Banana
+  2: Orange
+  3: Grape
+  4: Mango
+  5: Cherry

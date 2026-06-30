@@ -1,7 +1,2 @@
-data/
-models/
 outputs/
 __pycache__/
-*.pt
-*.pth
-*.safetensors
