@@ -2,7 +2,7 @@
 Fruit Detection & Classification — YOLOv8 · ViT · SAM
 ======================================================
 Streamlit dashboard — real-time inference, model comparison,
-performance analytics. Fine-tuned models on custom fruit dataset.
+performance analytics. Fine-tuned models on custom fruit dataset
 
 Author : Ali Ennadafy
 Date   : 2026

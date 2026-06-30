@@ -1,8 +1,3 @@
-"""
-Export YOLO fine-tuning artifacts without retraining.
-Copies weights, builds metrics JSON, and saves training curves.
-"""
-
 from __future__ import annotations
 
 import csv
