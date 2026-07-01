@@ -1,0 +1,20 @@
+{
+  "model": "SAM-vit-base (decoder fine-tuned)",
+  "task": "segmentation",
+  "epochs_trained": 1,
+  "train_time_sec": 291.0,
+  "mean_iou": 0.7645,
+  "latency_ms": 13766.89,
+  "model_size_mb": 357.69,
+  "history": {
+    "train_loss": [
+      0.1916
+    ],
+    "val_loss": [
+      0.0992
+    ],
+    "val_iou": [
+      0.8396
+    ]
+  }
+}
