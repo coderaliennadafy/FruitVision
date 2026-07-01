@@ -550,13 +550,20 @@ def chart_axes(fig, x_range=None, y_range=None, x_title=None, y_title=None):
 def load_yolo(model_path: str):
     try:
         from ultralytics import YOLO
+
         if not Path(model_path).exists():
-            return None, f"Weights not found: `{model_path}`"
-        return YOLO(model_path), None
-    except ImportError:
-        return None, "ultralytics not installed."
+            return None, f"Weights not found: {model_path}"
+
+        model = YOLO(model_path)
+        return model, None
+
+    except ImportError as e:
+        import traceback
+        return None, traceback.format_exc()
+
     except Exception as e:
-        return None, str(e)
+        import traceback
+        return None, traceback.format_exc()
 
 
 @st.cache_resource(show_spinner=False)
